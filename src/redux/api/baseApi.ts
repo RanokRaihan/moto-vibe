@@ -10,7 +10,7 @@ import { RootState } from "../store";
 
 const baseQuery = fetchBaseQuery({
   // baseUrl: "http://localhost:3000/api/v1",
-  baseUrl: "https://bikestore.ranokapi.com/api/v1",
+  baseUrl: "https://motovibe-api.ranoklab.com/api/v1",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = (getState() as RootState).auth.token;
@@ -29,10 +29,13 @@ const baseQueryWithRefreshToken: BaseQueryFn<
   const result = await baseQuery(args, api, extraOptions);
   if (result?.error?.status === 401) {
     // refresh token
-    const res = await fetch("http://localhost:3000/api/v1/auth/refresh-token", {
-      method: "POST",
-      credentials: "include",
-    });
+    const res = await fetch(
+      "https://motovibe-api.ranoklab.com/api/v1/auth/refresh-token",
+      {
+        method: "POST",
+        credentials: "include",
+      },
+    );
     const data = await res.json();
 
     if (data?.data?.accessToken) {

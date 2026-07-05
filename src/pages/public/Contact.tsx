@@ -44,7 +44,7 @@ const Contact = () => {
       name: "Downtown Store",
       address: "123 Main Street, Dhaka 1000",
       phone: "+880 1234-567890",
-      email: "downtown@bikestore.com",
+      email: "downtown@motovibe.com",
       hours: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM",
     },
     {
@@ -52,7 +52,7 @@ const Contact = () => {
       name: "Gulshan Branch",
       address: "456 Gulshan Avenue, Dhaka 1212",
       phone: "+880 1234-567891",
-      email: "gulshan@bikestore.com",
+      email: "gulshan@motovibe.com",
       hours: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM",
     },
     {
@@ -60,7 +60,7 @@ const Contact = () => {
       name: "Chittagong Store",
       address: "789 Port Road, Chittagong 4000",
       phone: "+880 1234-567892",
-      email: "chittagong@bikestore.com",
+      email: "chittagong@motovibe.com",
       hours: "Mon-Sat: 9AM-8PM, Sun: 10AM-6PM",
     },
   ];

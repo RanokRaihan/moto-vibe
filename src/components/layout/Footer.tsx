@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="text-gray-300 font-thin space-y-2">
               <p>123 Main Street, New York, NY 10001</p>
               <p>phone number: 123-456-7890</p>
-              <p>email: bikevibe@gmail.com </p>
+              <p>email: motovibe@gmail.com </p>
             </div>
           </div>
         </div>

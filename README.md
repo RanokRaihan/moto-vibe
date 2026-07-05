@@ -1,6 +1,6 @@
-# 🚴‍♂️ Bike Store Frontend
+# 🏍️ MotoVibe
 
-A modern, responsive bike store application built with React, TypeScript, and Tailwind CSS. This frontend provides a seamless shopping experience for bike enthusiasts with advanced features like role-based authentication, product management, and secure payment integration.
+A modern, responsive motorcycle store application built with React, TypeScript, and Tailwind CSS. This frontend provides a seamless shopping experience for motorcycle enthusiasts with advanced features like role-based authentication, product management, and secure payment integration.
 
 ## 🌟 Features
 
@@ -90,8 +90,8 @@ A modern, responsive bike store application built with React, TypeScript, and Ta
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/RanokRaihan/bike-store-frontend.git
-cd bike-store-frontend
+git clone https://github.com/RanokRaihan/moto-vibe.git
+cd moto-vibe
 ```
 
 2. **Install dependencies:**

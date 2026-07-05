@@ -1,6 +1,6 @@
 import baseApi from "@/redux/api/baseApi";
 
-const dashboardAoi = baseApi.injectEndpoints({
+const dashboardApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     fetchDashboardData: builder.query({
       query: () => ({
@@ -11,4 +11,4 @@ const dashboardAoi = baseApi.injectEndpoints({
   }),
 });
 
-export const { useFetchDashboardDataQuery } = dashboardAoi;
+export const { useFetchDashboardDataQuery } = dashboardApi;

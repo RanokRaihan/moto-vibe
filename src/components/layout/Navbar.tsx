@@ -43,7 +43,7 @@ const Navbar = () => {
         <nav className="flex justify-between items-center">
           {isMobile && <MobileNav />}
           <Link to="/">
-            <img src={logo} alt="Bike logo" className="h-12" />
+            <img src={logo} alt="MotoVibe logo" className="h-12" />
           </Link>
           {!isMobile && <MainNav />}
           {user ? (
